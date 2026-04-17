@@ -1,0 +1,40 @@
+# ================================
+# Cache do Python
+# ================================
+# Ignora __pycache__ em qualquer nível de profundidade
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# ================================
+# Cache do Pytest
+# ================================
+**/.pytest_cache/
+
+# ================================
+# Ambientes virtuais
+# ================================
+.venv/
+venv/
+env/
+ENV/
+
+# ================================
+# Distribuição / build
+# ================================
+dist/
+build/
+*.egg-info/
+
+# ================================
+# Cobertura de testes
+# ================================
+.coverage
+htmlcov/
+coverage.xml
+
+# ================================
+# Variáveis de ambiente
+# ================================
+.env
+.env.*
